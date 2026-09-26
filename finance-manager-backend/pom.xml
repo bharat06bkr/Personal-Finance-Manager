@@ -14,14 +14,13 @@
     <version>1.0.0</version>
     <name>finance-manager-backend</name>
     <description>Personal Finance Manager REST API Backend</description>
+    
     <properties>
         <java.version>17</java.version>
         <jjwt.version>0.11.5</jjwt.version>
+        <start-class>com.finance.FinanceApplication</start-class>
     </properties>
-    <properties>
-    <java.version>17</java.version>
-    <start-class>com.finance.FinanceApplication</start-class>
-    </properties>
+    
     <dependencies>
         <!-- Spring Boot Starters -->
         <dependency>
